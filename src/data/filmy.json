@@ -2,8 +2,16 @@
 	{
 		"nazev": "Duna",
 		"rok": 2021,
-		"zanr": ["Sci-Fi", "Akční", "Dobrodružný", "Drama"],
-		"zeme": ["USA", "Kanada"],
+		"zanr": [
+			"Sci-Fi",
+			"Akční",
+			"Dobrodružný",
+			"Drama"
+		],
+		"zeme": [
+			"USA",
+			"Kanada"
+		],
 		"delka": 155,
 		"obsah": {
 			"text": "Kultovní sci-fi dílo vypráví o mocenských bojích uvnitř galaktického Impéria, v nichž jde o ovládnutí planety Arrakis: zdroje vzácného koření - melanže, jež poskytuje zvláštní psychické schopnosti, které umožňují cestování vesmírem. Padišáh imperátor svěří správu nad Arrakisem a s ní i komplikovanou těžbu neobyčejné látky vévodovi rodu Atreidů. Celá anabáze je ale součástí spiknutí, z něhož se podaří vyváznout jen vévodovu synovi Paulovi a jeho matce, kteří uprchnou do pouště. Jejich jedinou nadějí jsou nedůvěřiví domorodí obyvatelé fremeni, schopní trvale přežít ve vyprahlé pustině. Mohl by Paul Atreides být spasitelem, na kterého tak dlouho čekají?",
@@ -13,7 +21,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Jurský park" }, { "nazev": "Stardust" }],
+		"souvisejici": [
+			{
+				"nazev": "Jurský park"
+			},
+			{
+				"nazev": "Stardust"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/165/685/165685348_96b806.jpg",
 			"sirka": 720,
@@ -21,10 +36,14 @@
 		}
 	},
 	{
-		"nazev": "Ajťáci: Přichází internet",
+		"nazev": "Ajťáci - Přichází internet",
 		"rok": 2013,
-		"zanr": ["Komedie"],
-		"zeme": ["Velká Británie"],
+		"zanr": [
+			"Komedie"
+		],
+		"zeme": [
+			"Velká Británie"
+		],
 		"delka": 48,
 		"obsah": {
 			"text": "Čas o něco poskočil, ale v suterénu Reynholm Industries se zdá být vše při starém. Zatímco Moss obdivuje znalosti marvelovského universa Royovy nové přítelkyně Alice, Jenny laškuje s fešným prodavačem v nové kavárně hned za rohem a Douglas plánuje účast na monstrózní párty, organizované majitelem nejlepšího řetězce striptýzových barů v Soho. Obraz všeobecné pohody však při bližším pohledu již začíná vykazovat drobné vady na kráse. Co mohla jen Alice myslet tím, že Roye označila za emocionálního artistu? A proč je nová webizoda Mossova herního magazínu tak k uzoufání nudná? To vše jsou ale skutečně jen drobnosti, blíží se mnohem fatálnější katastrofa. Zdánlivě banální incident s bezdomovkyní a malým prodavačem kávy se stane virálním videem roku a přivolá na hlavy nešťastného Roye a Jenny nejen Douglasův hněv, ale co je mnohem horší, hněv celého internetu. A jak známo, před internetem není úniku. Ještě že zaměstnanci oddělení IT Reynholm Industries umí v okamžicích krize držet při sobě!",
@@ -34,7 +53,11 @@
 			}
 		},
 		"hodnoceni": 4,
-		"souvisejici": [{ "nazev": "Vlastníci" }],
+		"souvisejici": [
+			{
+				"nazev": "Vlastníci"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/160/811/160811814_18f759.jpg",
 			"sirka": 360,
@@ -44,8 +67,14 @@
 	{
 		"nazev": "Drive",
 		"rok": 2011,
-		"zanr": ["Krimi", "Thriller", "Drama"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Krimi",
+			"Thriller",
+			"Drama"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 100,
 		"obsah": {
 			"text": "Říkají mu Řidič. Přes den je filmovým kaskadérem, po nocích si přivydělává jako nájemný řidič zločineckých gangů. Nezajímá ho o jakou práci ten večer zrovna jde, řítí se nocí s policejními vozy v zádech. Shannon je Řidičovým učitelem i manažerem, který se ho snaží dohazovat filmovým režisérům i zlodějům, kteří za něj jsou ochotni dobře zaplatit. Shannon má v plánu koupi vozu, ve kterém by se Řidič mohl zúčastnit profesionálních závodů. Navrhne, aby se investorem stal Bernie Rose, místní boháč s pochybnými zdroji příjmů. Samotářskému a ze svého dvojího života značně rozpolcenému Řidiči zcela změní život náhodné setkání se sousedkou Irene, se kterou tráví stále více času. Vše se však změní když je z vězění propuštěn Irenin manžel Standard. Řidič se s ním domluví na poslední loupeži, která Standardovi umožnit splatit dluh, kvůli kterému ho vydírají gangsteři. Ukáže se však, že šlo o nastraženou past. Vše se začíná komplikovat a aby Řidič ochránil sebe i Irene, musí udělat to, co umí nejlépe – řádně šlápnout na plyn.",
@@ -54,7 +83,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Klub rváčů" }, { "nazev": "Disconnect" }],
+		"souvisejici": [
+			{
+				"nazev": "Klub rváčů"
+			},
+			{
+				"nazev": "Disconnect"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/158/036/158036329_463c1e.jpg",
 			"sirka": 720,
@@ -64,8 +100,12 @@
 	{
 		"nazev": "V síti",
 		"rok": 2020,
-		"zanr": ["Dokumentární"],
-		"zeme": ["Česko"],
+		"zanr": [
+			"Dokumentární"
+		],
+		"zeme": [
+			"Česko"
+		],
 		"delka": 100,
 		"obsah": {
 			"text": "3 herečky, 3 pokojíčky, 10 dní a 2458 potenciálních sexuálních predátorů. Radikální experiment otevírá tabuizované téma zneužívání dětí na internetu. Tři dospělé herečky s dětskými rysy se vydávají na sociální sítě, aby v přímém přenosu prožily zkušenost dvanáctiletých dívek online. Ve věrných kopiích dětských pokojů chatují a skypují s muži, kteří je na netu aktivně vyhledali a oslovili. Drtivá většina těchto mužů požaduje sex přes webkameru, posílá fotky svých penisů a odkazy na porno. Děti jsou dokonce vystaveny vydírání. Dokumentární film Barbory Chalupové a Víta Klusáka vypráví strhující drama tří hrdinek alias „dvanáctiletých dívek“, pro které se účast na experimentu, od castingu až po osobní schůzky s predátory pod dozorem ochranky, stává zásadní životní zkušeností. Predátorské taktiky se postupně obracejí proti svým strůjcům: Z lovců se stávají lovení.",
@@ -85,8 +125,13 @@
 	{
 		"nazev": "Vlastníci",
 		"rok": 2019,
-		"zanr": ["Komedie", "Drama"],
-		"zeme": ["Česko"],
+		"zanr": [
+			"Komedie",
+			"Drama"
+		],
+		"zeme": [
+			"Česko"
+		],
 		"delka": 97,
 		"obsah": {
 			"text": "Paní Zahrádková (Tereza Voříšková) s manželem (Vojta Kotek) idealisticky chtějí, aby společnými silami dům zachránili. Novomanželé Bernáškovi (Jiří Černý, Maria Sawa) se s nadšením připojují. Paní Roubíčková (Klára Melíšková) pedantsky kontroluje řádný průběh schůze. Paní Horvátová (Dagmar Havlová) všechno iniciativně komentuje. Naivní pan Švec (David Novotný) zastupuje svojí maminku. Paní Procházková (Pavla Tomicová) s panem Novákem (Ondřej Malý) hledá způsoby jak zhodnotit svůj majetek. Pan Nitranský (Andrej Polák) touží po půdě v domě a pan Kubát (Jiří Lábus) důsledně sabotuje jakékoliv rozhodnutí. A v pozadí číhají bratři Čermákovi (Kryštof Hádek, Stanislav Majer), jen starý pan profesor Sokol (Ladislav Trojan) zatím nic nekomentuje…",
@@ -97,8 +142,12 @@
 		},
 		"hodnoceni": 4,
 		"souvisejici": [
-			{ "nazev": "Pelíšky" },
-			{ "nazev": "Ajťáci: Přichází internet" }
+			{
+				"nazev": "Pelíšky"
+			},
+			{
+				"nazev": "Ajťáci - Přichází internet"
+			}
 		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/163/781/163781903_f1e217.png",
@@ -109,8 +158,14 @@
 	{
 		"nazev": "Má mě rád, nemá mě rád",
 		"rok": 2010,
-		"zanr": ["Komedie", "Drama", "Romantický"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Komedie",
+			"Drama",
+			"Romantický"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 90,
 		"obsah": {
 			"text": "V létě roku 1957 se sedmiletý Bryce Loski přestěhoval spolu se svými rodiči a starší sestrou do malého městečka, kde se setkává s dívkou ze sousedství a zároveň novou spolužačkou, Juli Bakerovou. Zvědavá a bystrá Juli se do něj na první pohled zamiluje. Bryce se jí naopak snaží ze všech sil zbavit, zdá se mu dotěrná a protivná. Léta běží, rozporuplný vztah Bryce a Juli se nijak zásadně nemění. V sedmé třídě však nastává v Bryceově životě velká změna. Po smrti babičky se k nim nastěhuje dědeček Chet, který vidí Juli v úplně jiném světle. Imponuje mu její tvrdohlavost a odhodlání. Jednoho dne se Juli rozhodne zachránit starý platan, který stojí v jejich ulici. Prosí Bryceho o pomoc a doufá, že ji podpoří.",
@@ -120,7 +175,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Stardust" }, { "nazev": "Lásky čas" }],
+		"souvisejici": [
+			{
+				"nazev": "Stardust"
+			},
+			{
+				"nazev": "Lásky čas"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/159/604/159604837_170ee2.jpg",
 			"sirka": 720,
@@ -128,10 +190,16 @@
 		}
 	},
 	{
-		"nazev": "Pat a Mat: Fax",
+		"nazev": "Pat a Mat - Fax",
 		"rok": 2003,
-		"zanr": ["Animovaný", "Krátkometrážní", "Rodinný"],
-		"zeme": ["Česko"],
+		"zanr": [
+			"Animovaný",
+			"Krátkometrážní",
+			"Rodinný"
+		],
+		"zeme": [
+			"Česko"
+		],
 		"delka": 60,
 		"obsah": {
 			"text": "Pat si doma kľudne číta dennú tlač, keď zrazu začuje pískanie. To Mat dorazil domov na bicykli a priniesol zo sebou aj dve škatule obsahujúce faxové prístroje. Mat sa po zapojení oboch prístrojov rozhodne vyskúšať faxovanie a tak sa snaží Patovi poslať obrázok opice, ktorý vytrhol z knihy. Fax funguje a Patovi prichádza obrázok a ten chce okamžite poslať obrázok Matovi, ale ako neskúsený používateľ faxového prístroja ho nepoužije požadovaným spôsobom, čo spôsobí poškodenie aparátu. Zavolá Mata, aby mu ukázal, čo sa stalo, a ten ho poučí ako fax správne použiť. Pri jednom takomto pokuse s faxom objavia nové využitie tohto aparátu.",
@@ -151,8 +219,14 @@
 	{
 		"nazev": "Jurský park",
 		"rok": 1993,
-		"zanr": ["Dobrodružný", "Sci-Fi", "Thriller"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Dobrodružný",
+			"Sci-Fi",
+			"Thriller"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 127,
 		"obsah": {
 			"text": "Za vědcem, doktorem Grantem přiletí milionář John Hammond. Řekne jemu a jeho kolegyni, vědkyni Ellie, že má pronajatý ostrov, kde má biologickou rezidenci, kam by mohli jezdit lidé. Ellie a Grant hledají vykopávky koster dinosaurů, jsou to paleontologové. Hammond potřebuje, aby mu někdo udělal posudek. Chce proto po Ellie a Grantovi, aby schválili, že jeho Jurský park je v pořádku. Hammond by jim za to podporoval jejich vykopávky po dobu tří let. Ellie a Grant nejdříve nechtějí, ale nakonec souhlasí. Neznámý muž mezitím přijde za Dennisem, zaměstnancem Hammonda. Nabídne mu mnoho peníz, pokud mu přinese embrya dinosaurů, ale Hammond se to nesmí nikdy dozvědět. Ellie a Grant s kolegou Ianem, Hammondem a dalšími společníky doletí tryskáčem na ostrov. Když projíždí Jurským parkem, Grant ani Ellie nevěří vlastním očím. Jsou tam živí dinosauři. Lidí se nebojí a žijí ve stádech volně v přírodě v parku. Hammond jim pak všem ukáže, že mají i muzeum. Díky videa jim ukáže, že dinosaury rozmnožili. Vzali komáry, kteří byli zatvrdnutí v pryskyřici z přírody před mnoha lety a zkoumali jejich krev. Někteří v sobě měli krev dinosaurů, jelikož jí vysáli. Vědcům se pak podařilo z D.NA. vytvořit dinosaury, jelikož k tomu použili i žabí D.N.A. Následně pak dinosaury rozmnožili. Vědci pak Grantovi oznámí, že volně se dinosauři nerozmnožují, jelikož mají jen samice a řídí jejich chromozomy. Jsou nebezpeční, ale v parku jsou udělaná opatření a mají elektrický plot. Kolegové Granta však budování parku neschvalují. I samotnému Grantovi dochází, že spojování lidí a dinosaurů může být nebezpečné. Hammonda pak přijedou navštívit vnoučata, děti Tim a Lex. Hammondovi je oznámeno, že se blíží bouře. Grant se svým týmem a s vnoučaty mezitím odjede na vyhlídkovou jízdu. Všichni jedou auty, které nemusí nikdo řídit, řídí je počítač. Tým pak řekne Hammondovi, že mají v parku spoustu problémů. Dennis by je měl vyřešit, ale nechce se mu. Pořád Hammondovi říká, že dostává málo peněz. Auto dojede k výběhu s tyranosaurem, ale on se neukáže. Dají mu tam i kozu, kdyby ji chtěl sežrat, ale nepomůže to. Grant následně z auta vyskočí a rozhodne se jít po svých. Ellie vystoupí taky a jdou i vnoučata. Po cestě potkají dinosaura, který leží, je nemocný. Ellie zjistí, že se otrávil, ale musí zjistit přesně čím. Najednou začne bouře, ale Ellie chce dál zkoumat otráveného dinosaura. Zůstane tedy na místě a ostatní jedou pryč. Dennis mezitím Hammondovi a jeho týmu řekne, že vylepšil telefonní síť, takže je možné, že na chvilku vypadne systém. On ho přitom záměrně vypl a jde si pro embrya dinosaurů, ale ostatním řekl, že jde do automatu. Potřebuje se dostat přes elektrickou bránu, ale nesmí se to nikdo dozvědět. Dennis ukradl několik embryí, ale kvůli vypnutému systému se zastavilo auto a přestávají fungovat elektrické ploty. Nefungují ani telefony, takže se s ostatními nemá Grant jak spojit. Dennis mezitím dojde k bráně…",
@@ -161,7 +235,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Duna" }, { "nazev": "Ex Machina" }],
+		"souvisejici": [
+			{
+				"nazev": "Duna"
+			},
+			{
+				"nazev": "Ex Machina"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/159/006/159006790_f5a1d1.jpg",
 			"sirka": 720,
@@ -171,8 +252,14 @@
 	{
 		"nazev": "Ona",
 		"rok": 2013,
-		"zanr": ["Drama", "Romatický", "Sci-Fi"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Drama",
+			"Romatický",
+			"Sci-Fi"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 126,
 		"obsah": {
 			"text": "Děj snímku Her se odehrává v Los Angeles v nedaleké budoucnosti. Theodore (Joaquin Phoenix) je komplikovaný a citlivý muž, který se živí psaním dojemných a osobních dopisů pro druhé. Se zlomeným srdcem po ukončení dlouhého vztahu se začne zajímat o nový, pokročilý operační systém, o kterém jeho výrobce tvrdí, že představuje zcela unikátní a intuitivní bytost. Po jeho instalaci se seznamuje se „Samanthou“, umělou inteligencí s milým ženským hlasem (Scarlett Johansson), která má zajímavé postřehy, je citlivá a překvapivě vtipná. Jak její potřeby a požadavky rostou společně s těmi jeho, mění se jejich přátelství ve skutečnou vzájemnou lásku.",
@@ -182,7 +269,11 @@
 			}
 		},
 		"hodnoceni": 4,
-		"souvisejici": [{ "nazev": "Ex Machina" }],
+		"souvisejici": [
+			{
+				"nazev": "Ex Machina"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/158/280/158280506_017bab.jpg",
 			"sirka": 720,
@@ -192,8 +283,14 @@
 	{
 		"nazev": "Klub rváčů",
 		"rok": 1999,
-		"zanr": ["Drama", "Thriller"],
-		"zeme": ["USA", "Německo"],
+		"zanr": [
+			"Drama",
+			"Thriller"
+		],
+		"zeme": [
+			"USA",
+			"Německo"
+		],
 		"delka": 139,
 		"obsah": {
 			"text": "Když nemůžete půl roku usnout, celý okolní svět vám začne připadat jako nekonečný sen. Všechno kolem vás je nedokonalou xeroxovou kopií sebe sama. Chodíte do práce, díváte se na televizi a jste vděčni za to, když občas ztratíte vědomí a nevíte o světě. Lidí s podobnými problémy moc není, ale mladý úspěšný úředník, který si říká Jack, je jedním z nich. Má slušnou práci, vydělává slušné peníze, ale trpí nejtěžší formou nespavosti. Na služební cestě se Jack seznámí s Tylerem Durdenem, který mu nabídne příbytek pod podmínkou, že mu vrazí pořádnou ránu. Tato „výměna názorů“ se oběma zalíbí a brzy vznikne první Klub rváčů. Místo, kde můžou mladí muži, znechucení světem, odložit své starosti a stát se na pár minut zvířaty.",
@@ -203,8 +300,12 @@
 		},
 		"hodnoceni": 5,
 		"souvisejici": [
-			{ "nazev": "Jako v bavlnce" },
-			{ "nazev": "Kde se země chvěje" }
+			{
+				"nazev": "Jako v bavlnce"
+			},
+			{
+				"nazev": "Kde se země chvěje"
+			}
 		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/165/203/165203947_1963ac.jpg",
@@ -215,8 +316,13 @@
 	{
 		"nazev": "Disconnect",
 		"rok": 2012,
-		"zanr": ["Drama", "Thriller"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Drama",
+			"Thriller"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 116,
 		"obsah": {
 			"text": "Tvrdě pracující právník, který neustále visí na telefonu, si nedokáže najít čas na komunikaci s vlastní rodinou. Odcizený pár používá internet jako prostředek k úniku z jejich dávno mrtvého manželství. Ovdovělý bývalý policista se usilovně snaží vychovat nezdárného syna, který trápí svého spolužáka kyberšikanou. Ambiciózní novinářka vidí svou životní příležitost v sepsání příběhu o dospívajícím chlapci, který vystupuje na internetových stránkách pro dospělé. Jsou to cizí lidé, sousedé i kolegové, jejichž příběhy se protínají v tomto strhujícím dramatickém thrilleru o obyčejných jedincích, kteří zoufale touží po lidském kontaktu. Film zkoumá následky používání moderních technologií i to, jak tyto technologie ovlivňují a určují naše každodenní vztahy.",
@@ -226,7 +332,11 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Ex Machina" }],
+		"souvisejici": [
+			{
+				"nazev": "Ex Machina"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/158/172/158172038_84f0e5.jpg",
 			"sirka": 360,
@@ -236,8 +346,14 @@
 	{
 		"nazev": "Lásky čas",
 		"rok": 2013,
-		"zanr": ["Fantasy", "Romantický", "Drama"],
-		"zeme": ["Velká Británie"],
+		"zanr": [
+			"Fantasy",
+			"Romantický",
+			"Drama"
+		],
+		"zeme": [
+			"Velká Británie"
+		],
 		"delka": 123,
 		"obsah": {
 			"text": "Tim (Domhnall Gleeson) je naprosto obyčejný nesmělý jednadvacetiletý Brit, který má starostlivou matku, potrhlou sestru, úžasného otce (Bill Nighy) a žádnou holku. To se má brzy změnit, jelikož Tim právě dozrál do věku, kdy mu tatínek prozradí rodové tajemství. Všichni mužští členové tohoto rodu totiž mohou tak trochu cestovat v čase. „Tak trochu“ v tomto případě znamená, že se můžou vracet jen do minulosti, k událostem, které oni sami prožili. Stačí zajít do nějakého tmavého koutu, zavřít oči, sevřít pěsti a jste tam, kde jste si přáli být. Tim se okamžitě rozhodne využít téhle dovednosti k tomu nejdůležitějšímu, co člověk jeho věku potřebuje. Tedy k holce, pokud možno hezké, chytré, hodné a lačné po sexu. Ta Timova se jmenuje Mary (Rachel McAdams) a jejich vztah je dokonalý, protože všechny nedokonalosti Tim pokaždé napraví. Ovšem ani s takovou schopností nemůžete život obehrávat donekonečna, zvlášť když je to prevít, který vám připravuje jedno nelehké dilema za druhým. S každým návratem totiž přijdete o všechno, co jste do té doby prožili. A to někdy hodně mrzí.",
@@ -247,7 +363,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Kde se země chvěje" }, { "nazev": "Stardust" }],
+		"souvisejici": [
+			{
+				"nazev": "Kde se země chvěje"
+			},
+			{
+				"nazev": "Stardust"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/157/954/157954228_8232d5.jpg",
 			"sirka": 360,
@@ -257,8 +380,13 @@
 	{
 		"nazev": "Pelíšky",
 		"rok": 1999,
-		"zanr": ["Komedie", "Drama"],
-		"zeme": ["Česko"],
+		"zanr": [
+			"Komedie",
+			"Drama"
+		],
+		"zeme": [
+			"Česko"
+		],
 		"delka": 116,
 		"obsah": {
 			"text": "A je tu zpět jedna z nejúspěšnějších českých filmových komedií od renomovaných tvůrců - režiséra J. Hřebejka a scenáristy P. Jarchovského s řadou skvělých herců. Vraťme se tedy s oblíbenými postavami k rodinným rituálům, láskám a trapasům odehrávajícím se na sklonku šedesátých let minulého století v jedné pražské čtvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávění životních osudů tří generací mužů a žen ve zvláštním období našich dějin v roce 1968… V jedné dvoupatrové vile tu žijí dvě rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchý, ale dobrácký důstojník z povolání, je zastáncem panujícího režimu a stejně vehementně obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bývalý odbojář s trpkou válečnou zkušeností, je naopak zarytým opozičníkem. Také on je přesvědčený o tom, že má za všech okolností pravdu - není proto divu, že se tihle dva nemají zrovna v lásce. Jejich děti - gymnazista Michal (M. Beran) a jeho spolužačka Jindřiška (K. Nováková) - spolu vycházejí docela dobře. I když Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vědomí. Ta má ale oči pro jiného. Nezbývá mu tedy nic jiného, než aby smutně přihlížel, jak mu jeho první milostné body krade spolužák Elien (O. Brousek). U Šebků a Krausů se zatím střídají rodinné návštěvy, ve vší obřadnosti se tu slaví Vánoce, svatba i nečekaný, bolestný pohřeb. Do zabydlených domácností vtrhnou i některé novodobé vymoženosti v podobě umělohmotných lžiček, nerozbitných sklenic i podivných her pro statečné pionýry. Mládež zatím pokukuje po lákadlech světa kapitalismu a snaží se žít svůj vlastní, na rodičovských autoritách a „velké“ historii nezávislý život. V soukromí rodinných pelíšků se tak čas od času odehrají malá dramata názorů a vztahů, která se v paměti jejich účastníků otisknou už nejspíš navždy…",
@@ -268,7 +396,14 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Vlastníci" }, { "nazev": "Tmavomodrý svět" }],
+		"souvisejici": [
+			{
+				"nazev": "Vlastníci"
+			},
+			{
+				"nazev": "Tmavomodrý svět"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/165/049/165049346_a93cc4.jpg",
 			"sirka": 360,
@@ -278,8 +413,14 @@
 	{
 		"nazev": "Ex Machina",
 		"rok": 2014,
-		"zanr": ["Drama", "Mysteriózní", "Sci-Fi"],
-		"zeme": ["Velká Británie"],
+		"zanr": [
+			"Drama",
+			"Mysteriózní",
+			"Sci-Fi"
+		],
+		"zeme": [
+			"Velká Británie"
+		],
 		"delka": 108,
 		"obsah": {
 			"text": "Caleb Smith (Domhnall Gleeson), šestadvacetiletý programátor největší internetové společnosti na světě, vyhraje soutěž o týdenní pobyt na soukromém horském sídle geniálního a samotářského ředitele společnosti Nathana Batemana (Oscar Isaac). Když však Caleb dorazí na odlehlé místo, zjistí, že se bude muset zúčastnit podivného a fascinujícího experimentu, v němž je nucen komunikovat s první skutečnou umělou inteligencí na světě, umístěnou v těle krásné robotické dívky Avy (Alicia Vikanderová).",
@@ -288,7 +429,14 @@
 			}
 		},
 		"hodnoceni": 4,
-		"souvisejici": [{ "nazev": "Jurský park" }, { "nazev": "Disconnect" }],
+		"souvisejici": [
+			{
+				"nazev": "Jurský park"
+			},
+			{
+				"nazev": "Disconnect"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/159/702/159702460_13bc41.jpg",
 			"sirka": 720,
@@ -298,8 +446,16 @@
 	{
 		"nazev": "Kde se země chvěje",
 		"rok": 2019,
-		"zanr": ["Krimi", "Drama", "Mysteriózní", "Romantický", "Thriller"],
-		"zeme": ["USA"],
+		"zanr": [
+			"Krimi",
+			"Drama",
+			"Mysteriózní",
+			"Romantický",
+			"Thriller"
+		],
+		"zeme": [
+			"USA"
+		],
 		"delka": 107,
 		"obsah": {
 			"text": "V Tokiu 80. let se odehrává příběh milostného trojúhelníku. Záhadná bývalá emigrantka je obviněna z vraždy svojí kamarádky, která měla vztah s místním fotografem.",
@@ -309,7 +465,11 @@
 			}
 		},
 		"hodnoceni": 4,
-		"souvisejici": [{ "nazev": "Drive" }],
+		"souvisejici": [
+			{
+				"nazev": "Drive"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w720/files/images/film/posters/163/934/163934690_30b521.jpg",
 			"sirka": 720,
@@ -319,8 +479,15 @@
 	{
 		"nazev": "Jako v bavlnce",
 		"rok": 2020,
-		"zanr": ["Krimi", "Drama", "Thriller"],
-		"zeme": ["USA", "Velká Británie"],
+		"zanr": [
+			"Krimi",
+			"Drama",
+			"Thriller"
+		],
+		"zeme": [
+			"USA",
+			"Velká Británie"
+		],
 		"delka": 118,
 		"obsah": {
 			"text": "Soudem jmenovaná zákonná zástupkyně podvádí svoje klienty, a místo aby o ně pečovala, získává nad nimi absolutní moc. Její nejnovější oběť má ale v rukávu nečekané eso.",
@@ -330,7 +497,14 @@
 			}
 		},
 		"hodnoceni": 4,
-		"souvisejici": [{ "nazev": "Drive" }, { "nazev": "Klub rváčů" }],
+		"souvisejici": [
+			{
+				"nazev": "Drive"
+			},
+			{
+				"nazev": "Klub rváčů"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/165/351/165351686_8889ac.jpg",
 			"sirka": 360,
@@ -340,8 +514,14 @@
 	{
 		"nazev": "Bohemian Rhapsody",
 		"rok": 2018,
-		"zanr": ["Životopisný", "Drama", "Hudební"],
-		"zeme": ["Velká Británie"],
+		"zanr": [
+			"Životopisný",
+			"Drama",
+			"Hudební"
+		],
+		"zeme": [
+			"Velká Británie"
+		],
 		"delka": 134,
 		"obsah": {
 			"text": "Snímek „Bohemian Rhapsody“ je úchvatnou oslavou kapely Queen, jejich hudby a především výjimečného frontmana Freddieho Mercuryho. Ten se vymykal všem zažitým stereotypům a bořil konvence, díky čemuž se stal jedním z nejvýraznějších umělců na světě. Snímek mapuje raketový vzestup nekonvenční skupiny prostřednictvím jejich ikonických písní a revolučního zvuku. Dosáhli fenomenálního úspěchu, ale Freddie zcela nečekaně otočil a, obklopen temnými vlivy, opustil Queen v honbě za vlastní sólovou kariérou. Poté, co bez spolupráce s Queen ohromně trpěl, se Freddiemu podařilo znovusjednotit kapelu právě včas, aby mohla vystoupit na koncertu Live Aid. Zatímco statečně čelil nedávné diagnóze AIDS, dokázal dovést skupinu k jednomu z největších vystoupení v dějinách rockové hudby. Queen tak zanechávají odkaz, který dodnes inspiruje outsidery, snílky a milovníky hudby.",
@@ -361,8 +541,17 @@
 	{
 		"nazev": "Stardust",
 		"rok": 2007,
-		"zanr": ["Fantasy", "Romantický", "Dobrodružný", "Rodinný"],
-		"zeme": ["Velká Británie", "USA", "Island"],
+		"zanr": [
+			"Fantasy",
+			"Romantický",
+			"Dobrodružný",
+			"Rodinný"
+		],
+		"zeme": [
+			"Velká Británie",
+			"USA",
+			"Island"
+		],
 		"delka": 134,
 		"obsah": {
 			"text": "Možná jste si mysleli, že hvězdy jsou docela nezajímavé kusy kamenů. To jste se mýlili, hvězdy jsou živé bytosti, které vypadají jako krásné ženy. Když jedna hvězda spadla z nebe, vydal se ji Tristan hledat. Doufá, že když ji přinese své milované, získá tak její srdce a ona začne také milovat jeho. Jenže není jediný, kdo je hvězdě v patách. Tři princové hledají rubín z náhrdelníku této hvězdy, protože kdo jej nalezne, stane se králem. Nejodpornější důvod mají tři sestry čarodějnice. Když snědí srdce hvězdy, získají věčný život a mládí. První najde hvězdu Tristan. Je překvapený, když zjistí, že hvězda není jen kus chladného kamene, ale půvabná žena, která se jmenuje Yvaine. Vydají se spolu na dlouhou pouť, aby ji ukázal své milé. Jenže čarodějnice nemají v úmyslu se hvězdy vzdát, a tak oba čelí velkému nebezpečí. Během jejich dobrodružství Tristan dospěje a najde pravou lásku. Takovou, která se nedá koupit třeba spadlou hvězdou.",
@@ -371,7 +560,11 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Lásky čas" }],
+		"souvisejici": [
+			{
+				"nazev": "Lásky čas"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/164/949/164949899_f3ada3.jpg",
 			"sirka": 360,
@@ -381,8 +574,18 @@
 	{
 		"nazev": "Tmavomodrý svět",
 		"rok": 2001,
-		"zanr": ["Válečný", "Drama", "Akční", "Romantický"],
-		"zeme": ["Česko", "Velká Británie", "Německo", "Dánsko"],
+		"zanr": [
+			"Válečný",
+			"Drama",
+			"Akční",
+			"Romantický"
+		],
+		"zeme": [
+			"Česko",
+			"Velká Británie",
+			"Německo",
+			"Dánsko"
+		],
 		"delka": 112,
 		"obsah": {
 			"text": "Jan Svěrák vás ve válečném dramatu připoutá do kabiny stíhačky a přistane po stominutovém vzrušujícím letu. Vzhůru do tmavomodrého nebe startovali z anglických polních letišť českoslovenští váleční piloti, kteří chtěli svým dílem přispět k porážce fašistického Německa. Válečná léta nebyla pouze časem vzdušných soubojů. Byla i dobou pro lásku a kamarádství. Drama vojáků, jejichž boj válkou neskončil.",
@@ -391,7 +594,11 @@
 			}
 		},
 		"hodnoceni": 5,
-		"souvisejici": [{ "nazev": "Pelíšky" }],
+		"souvisejici": [
+			{
+				"nazev": "Pelíšky"
+			}
+		],
 		"plakat": {
 			"url": "https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/158/181/158181512_46eb07.jpg",
 			"sirka": 360,

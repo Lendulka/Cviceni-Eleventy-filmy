@@ -1,0 +1,22 @@
+<footer>
+
+    <section>
+
+        <h4>Podobné weby</h4>
+
+        {% for podobnyWeb in podobneWeby %}
+            <a href="{{ podobnyWeb.url }}">{{ podobnyWeb.nazev }}</a>
+        {% endfor %}
+
+    </section>
+
+    <section>
+
+        <h4>Obecné</h4>
+
+          <a href="/puvod-dat/">Původ dat</a>
+          <a href="https://www.11ty.dev/">Eleventy dokumentace</a>
+          <a href="https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy">Zadání cvičení</a>
+
+    </section>
+</footer>

@@ -1,0 +1,18 @@
+[
+    {
+        "nazev": "ČSFD.cz",
+        "url": "https://www.csfd.cz/"
+    },
+    {
+        "nazev": "IMDb",
+        "url": "https://www.imdb.com/"
+    },
+    {
+        "nazev": "Filmtoro",
+        "url": "https://filmtoro.cz/"
+    },
+    {
+        "nazev": "Rotten Tomatoes",
+        "url": "https://www.rottentomatoes.com/"
+    }
+]
