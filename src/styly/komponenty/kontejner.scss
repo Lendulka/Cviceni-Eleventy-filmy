@@ -1,0 +1,25 @@
+.kontejner {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+
+    &__hlavicka {
+        grid-area: header;
+    }
+
+    &__obsah {
+        grid-area: main;
+        padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
+    }
+
+    &__paticka {
+        grid-area: footer;
+    }
+}
+
+
+

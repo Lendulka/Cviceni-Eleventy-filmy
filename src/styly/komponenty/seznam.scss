@@ -1,0 +1,31 @@
+.seznam {
+    padding-left: 0.5rem;
+    line-height: 1.5rem;
+    list-style-type: none;
+
+    &__polozka {
+        color: $doplnkova-barva;
+    }
+
+    &__odkaz {
+        color: $doplnkova-barva;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+
+        &::before {
+            content: ' '; 
+            list-style-type: square;
+            width: 0.5rem;
+            height: 0.5rem;
+            margin-right: 0.6rem;
+            margin-bottom: 0.1rem;
+            background-color: $doplnkova-barva;
+            display: inline-block;
+        }
+    }
+}
+

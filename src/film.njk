@@ -7,25 +7,55 @@ pagination:
 permalink: '/film/{{ film.nazev | slug }}/'
 ---
 
-<h2>{{ film.nazev }}</h2>
+<div class="detail">
 
-<dl>
-    <dt>Rok:</dt>
-    <dd>{{ film.rok }}</dd>
+  <main class="detail__hlavni">
 
-    <dt>Země:</dt>
-    <dd>{{ film.zeme | join(', ') }}</dd>
+    <h2 class="nadpis-hlavni">{{ film.nazev }}</h2>
+  
+    <dl>
+      <dt>Rok:</dt>
+      <dd>{{ film.rok }}</dd>
+  
+      <dt>Země:</dt>
+      <dd>{{ film.zeme | join(', ') }}</dd>
+  
+      <dt>Žánr:</dt>
+      <dd>{{ film.zanr | join(' / ') }}</dd>
+  
+      {% set filmDelka =  [film.delka, " ", "minut"] %}
+      <dt>Délka:</dt>
+      <dd>{{ filmDelka | join }}</dd>
+    </dl>
+  
+    <h3 class="nadpis-vedlejsi">Obsah</h3>
 
-    <dt>Žánr:</dt>
-    <dd>{{ film.zanr | join(' / ') }}</dd>
+    <details open>
+      <summary></summary>
+      <p>{{ film.obsah.text }} (<a href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
+    </details>
 
-    <dt>Délka:</dt>
-    {% set items =  [film.delka, " ", "minut"] %}
-    <dd>{{ items | join }}</dd>
-</dl>
+  </main>
+  
+  <aside class="detail__vedlejsi">
 
-<h3>Obsah</h3>
-<details>
-<summary>Podrobnosti</summary>
-<p>{{ film.obsah.text }}</p>
-</details>
+    <img src="{{ film.plakat.url }}" alt="plakat" width="{{ film.plakat.sirka }}" height="{{ film.plakat.vyska }}">
+  
+    <h3 class="nadpis-vedlejsi">Hodnocení</h3>
+    <div class="hvezdy hvezdy--skore-{{ hodnoceni }}"></div>
+  
+    <h3 class="nadpis-vedlejsi">Související filmy</h3>
+  
+    {% set podobneFilmy = film.souvisejici %}
+      <ul class="seznam">
+        {% for film in podobneFilmy %}
+          <li class="seznam__polozka">
+            <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+  </aside>
+</div>
+
+  
