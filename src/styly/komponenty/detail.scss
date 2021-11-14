@@ -1,0 +1,40 @@
+.detail {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100%;
+
+    &__popis {
+        display: grid;
+        grid-template-rows: repeat(auto-fill, minmax(20px, 1fr));
+        grid-template-columns: auto 1fr;
+        column-gap: 1rem;
+        line-height: 1.5rem;
+
+        &__definice {
+            font-weight: bold;
+        }
+
+        &__data {
+            margin: 0;
+        }
+    }
+    
+    &__text {
+        font-size: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    &__vedlejsi__plakat img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .detail {
+        grid-template-columns: 1fr 250px;
+        gap: 2rem;
+    }
+}
+

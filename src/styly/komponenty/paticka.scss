@@ -1,5 +1,6 @@
 .paticka {
     background-color: #EEEEEE;
+    margin: auto;
 
     &__obsah {
         display: grid;
@@ -22,5 +23,12 @@
             &:focus {
                 text-decoration: underline;
             }
+    }
+}
+
+@media screen and (min-width: 530px) {
+    .paticka__obsah {
+        /*grid-template-rows: 100%;*/
+        grid-template-columns: repeat(2, 1fr);
     }
 }

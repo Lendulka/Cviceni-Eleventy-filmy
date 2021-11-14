@@ -13,33 +13,35 @@ permalink: '/film/{{ film.nazev | slug }}/'
 
     <h2 class="nadpis-hlavni">{{ film.nazev }}</h2>
   
-    <dl>
-      <dt>Rok:</dt>
-      <dd>{{ film.rok }}</dd>
+    <dl class="detail__popis">
+      <dt class="detail__popis__definice">Rok:</dt>
+      <dd class="detail__popis__data">{{ film.rok }}</dd>
   
-      <dt>Země:</dt>
-      <dd>{{ film.zeme | join(', ') }}</dd>
+      <dt class="detail__popis__definice">Země:</dt>
+      <dd class="detail__popis__data">{{ film.zeme | join(', ') }}</dd>
   
-      <dt>Žánr:</dt>
-      <dd>{{ film.zanr | join(' / ') }}</dd>
+      <dt class="detail__popis__definice">Žánr:</dt>
+      <dd class="detail__popis__data">{{ film.zanr | join(' / ') }}</dd>
   
       {% set filmDelka =  [film.delka, " ", "minut"] %}
-      <dt>Délka:</dt>
-      <dd>{{ filmDelka | join }}</dd>
+      <dt class="detail__popis__definice">Délka:</dt>
+      <dd class="detail__popis__data">{{ filmDelka | join }}</dd>
     </dl>
   
     <h3 class="nadpis-vedlejsi">Obsah</h3>
 
     <details open>
       <summary></summary>
-      <p>{{ film.obsah.text }} (<a href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
+      <p class="detail__text">{{ film.obsah.text }} (<a href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
     </details>
 
   </main>
   
   <aside class="detail__vedlejsi">
 
-    <img src="{{ film.plakat.url }}" alt="plakat" width="{{ film.plakat.sirka }}" height="{{ film.plakat.vyska }}">
+    <div class="detail__vedlejsi__plakat">
+      <img src="{{ film.plakat.url }}" alt="plakat" width="{{ film.plakat.sirka }}" height="{{ film.plakat.vyska }}">
+    </div>
   
     <h3 class="nadpis-vedlejsi">Hodnocení</h3>
     <div class="hvezdy hvezdy--skore-{{ hodnoceni }}"></div>

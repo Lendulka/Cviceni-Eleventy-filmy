@@ -13,6 +13,8 @@
 
     &__obsah {
         grid-area: main;
+        max-width: $sirka-obsahu;
+        margin: auto;
         padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
     }
 
