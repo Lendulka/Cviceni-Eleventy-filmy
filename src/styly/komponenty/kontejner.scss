@@ -16,6 +16,10 @@
         max-width: $sirka-obsahu;
         margin: auto;
         padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
+    
+            &--uvodni {
+            padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;       
+            }
     }
 
     &__paticka {

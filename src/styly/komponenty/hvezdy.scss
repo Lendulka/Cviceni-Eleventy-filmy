@@ -1,0 +1,20 @@
+
+.hvezdy {
+    display: flex;
+    width: 7.5rem;
+    height: 1.5rem;
+}
+
+.hvezdy::after {
+    content: "";
+    background-image: url('obrazky/hvezda-vyplnena.svg');
+    background-size: contain;
+    flex-grow: 3;
+}
+
+.hvezdy::before {
+    content: "";
+    background-image: url('obrazky/hvezda-prazdna.svg');
+    background-size: contain;
+    flex-grow: 2;
+}

@@ -13,23 +13,11 @@
 </head>
 
 <body>
-
     <div class="kontejner">
-
-        <div class="kontejner__hlavicka">
-            {% include "hlavicka.njk" %}
-        </div>
-
-        <div class="kontejner__obsah">
-            {{ content | safe }}
-        </div>
-
-        <div class="kontejner__paticka">
-            {% include "paticka.njk" %}
-        </div>
-     
+        {% include "hlavicka.njk" %}
+        {{ content | safe }}
+        {% include "paticka.njk" %}
     </div>
-    
 </body>
 </html>
 

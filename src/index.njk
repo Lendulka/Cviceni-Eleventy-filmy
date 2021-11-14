@@ -2,14 +2,16 @@
 layout: zakladni
 ---
 
-<main class="prehled">
-    <h2 class="nadpis-hlavni">Všechny</h2>
-    <ul class="seznam">
-        {% for film in filmy %}
-            <li class="seznam__polozka"><a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a></li>
-        {% endfor %}
-    </ul>
-</main>
+<div class="kontejner__obsah--uvodni">
+    <main class="prehled">
+        <h2 class="nadpis-hlavni">Všechny</h2>
+        <ul class="seznam">
+            {% for film in filmy %}
+                <li class="seznam__polozka"><a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a></li>
+            {% endfor %}
+        </ul>
+    </main>
+</div>
 
 
 
