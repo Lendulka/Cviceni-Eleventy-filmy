@@ -14,18 +14,17 @@
     &__obsah {
         grid-area: main;
         max-width: $sirka-obsahu;
+        width: 100%;
         margin: auto;
         padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
-    
-            &--uvodni {
-            padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;       
-            }
     }
 
     &__paticka {
         grid-area: footer;
     }
 }
+
+
 
 
 

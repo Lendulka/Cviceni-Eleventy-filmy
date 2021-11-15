@@ -604,5 +604,37 @@
 			"sirka": 360,
 			"vyska": 504
 		}
+	},
+	{
+		"nazev": "Kráska a zvíře",
+		"rok": 2017,
+		"zanr": [
+			"Rodinný",
+			"Fantasy",
+			"Muzikál",
+			"Romantický"
+		],
+		"zeme": [
+			"USA"
+		],
+		"delka": 129,
+		"obsah": {
+			"text": "Ve Francii na konci 18. století žil sobecký a pyšný princ, který se jen bavil a pořádal nákladné plesy a hostiny. Když jednoho dne odmítne poskytnout přístřeší staré tulačce, a navíc se jí posmívá, změní se stařena v krásnou čarodějnici a prince promění v netvora. Kletba bude zlomena, když se princ zamiluje a jeho city budou opětovány. Belle je krásná a prostá dívka, která miluje svého otce Maurice a odmítá dvoření namyšleného Gastona. Maurice jednoho dne zabloudí v lese a dostane se k začarovanému zámku. Ohavný netvor, který tam žije, ho přistihne při trhání růže pro svou dceru. Když se otec dlouho nevrací, Belle se ho vydá hledat. Dorazí k opuštěnému zámku a tam zjistí, že otce vězní netvor. Nabídne mu, že když tatínka propustí, ona tam zůstane místo něj. I když se dívka ze začátku cítí vězněm, postupně se s netvorem sbližuje. Všechno ale zkomplikuje Gaston, který chce za každou cenu získat Belle jen pro sebe.",
+			"autor": {
+				"jmeno": "TV Nova",
+				"odkaz": "https://tv.nova.cz/"
+			}
+		},
+		"hodnoceni": 5,
+		"souvisejici": [
+			{
+				"nazev": "Má mě rád, nemá mě rád"
+			}
+		],
+		"plakat": {
+			"url": "https://naughty-euler-61e5e9.netlify.app/obrazky/kraska_a_zvire_2017_plakat%20(5).jpg",
+			"sirka": 770,
+			"vyska": 1100
+		}
 	}
 ]
