@@ -8,12 +8,10 @@ permalink: '/film/{{ film.nazev | slug }}/'
 ---
 
 <div class="kontejner__obsah">
-
   <div class="detail">
-  
     <main class="detail__hlavni">
-  
-      <h2 class="nadpis-hlavni">{{ film.nazev }}</h2>
+
+      <h2 class="nadpis nadpis--hlavni">{{ film.nazev }}</h2>
   
       <dl class="detail__popis">
         <dt class="detail__popis__definice">Rok:</dt>
@@ -30,35 +28,33 @@ permalink: '/film/{{ film.nazev | slug }}/'
         <dd class="detail__popis__data">{{ filmDelka | join }}</dd>
       </dl>
   
-      <h3 class="nadpis-vedlejsi">Obsah</h3>
-  
+      <h3 class="nadpis nadpis--vedlejsi">Obsah</h3>
       <details open>
         <summary></summary>
-        <p class="detail__text">{{ film.obsah.text }} (<a href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
+        <p class="detail__text">{{ film.obsah.text }} (<a class=" detail__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
       </details>
-  
+
     </main>
   
     <aside class="detail__vedlejsi">
-  
+
       <div class="detail__vedlejsi__plakat">
         <img src="{{ film.plakat.url }}" alt="plakat" width="{{ film.plakat.sirka }}" height="{{ film.plakat.vyska }}">
       </div>
   
-      <h3 class="nadpis-vedlejsi">Hodnocení</h3>
-      <div class="hvezdy hvezdy hvezdy--skore-{{ film.hodnoceni }}"></div>
+      <h3 class="nadpis nadpis--vedlejsi">Hodnocení</h3>
+      <div class="hvezdy hvezdy--skore-{{ film.hodnoceni }}"></div>
   
-      <h3 class="nadpis-vedlejsi">Související filmy</h3>
-  
+      <h3 class="nadpis nadpis--vedlejsi">Související filmy</h3>
       {% set podobneFilmy = film.souvisejici %}
-        <ul class="seznam">
-          {% for film in podobneFilmy %}
-            <li class="seznam__polozka">
-              <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-  
+      <ul class="seznam">
+        {% for film in podobneFilmy %}
+        <li class="seznam__polozka">
+            <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
     </aside>
   </div>
 </div>

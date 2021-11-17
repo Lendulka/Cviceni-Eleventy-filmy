@@ -1,12 +1,20 @@
 .hlavicka {
 	background-color: #9c27b0;
-	
+	color: #ffffff;
+	display: flex;
+
 	&__obsah {
-		padding: 1rem;
+		padding: 1rem 1.5rem;
+		width: 100%;
+		max-width: calc($sirka-obsahu - (2 * $mezera-od-okraju-horizontalni));
+        margin: auto;
 	}
 
 	&__logo {
 		margin: 0;
+		padding: 0;
 		display: inline-flex;
+		margin: auto;
 	}
 }
+

@@ -3,8 +3,8 @@ layout: zakladni
 ---
 
 <div class="kontejner__obsah">
-    <main class="prehled">
-        <h2 class="nadpis-hlavni">Všechny</h2>
+    <main>
+        <h2 class="nadpis nadpis--hlavni">Všechny</h2>
         <ul class="seznam">
             {% for film in filmy %}
                 <li class="seznam__polozka"><a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a></li>
