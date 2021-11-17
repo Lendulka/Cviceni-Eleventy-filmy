@@ -31,7 +31,14 @@ permalink: '/film/{{ film.nazev | slug }}/'
       <h3 class="nadpis nadpis--vedlejsi">Obsah</h3>
       <details open>
         <summary></summary>
-        <p class="detail__text">{{ film.obsah.text }} (<a class=" detail__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.odkaz }}</a>)</p>
+
+        <p class="detail__text">{{ film.obsah.text }}
+          {% if film.obsah.autor.odkaz %}
+            (<a class="detail__autor__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.jmeno }}</a>)
+          {% else %}
+          <span class="detail__autor__jmeno">({{film.obsah.autor.jmeno}})</span>
+          {% endif %}
+        </p>
       </details>
 
     </main>
@@ -45,15 +52,17 @@ permalink: '/film/{{ film.nazev | slug }}/'
       <h3 class="nadpis nadpis--vedlejsi">Hodnocení</h3>
       <div class="hvezdy hvezdy--skore-{{ film.hodnoceni }}"></div>
   
-      <h3 class="nadpis nadpis--vedlejsi">Související filmy</h3>
       {% set podobneFilmy = film.souvisejici %}
-      <ul class="seznam">
-        {% for film in podobneFilmy %}
-        <li class="seznam__polozka">
-            <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+      {% if podobneFilmy | length > 0 %}
+        <h3 class="nadpis nadpis--vedlejsi">Související filmy</h3>
+        <ul class="seznam">
+          {% for film in podobneFilmy %}
+          <li class="seznam__polozka">
+              <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
     </aside>
   </div>

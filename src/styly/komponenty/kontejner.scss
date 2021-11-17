@@ -25,10 +25,17 @@
     }
 }
 
+@media screen and (min-width: 530px) {
+    .kontejner__paticka {
+        position: relative;
+        min-height: 15rem;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .kontejner__paticka {
         position: relative;
-        min-height: 20rem;
+        min-height: 15rem;
     }
 }
 

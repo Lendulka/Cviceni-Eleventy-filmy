@@ -23,10 +23,16 @@
         line-height: 1.4rem;
     }
 
-    &__odkaz {
-        font-style: italic;
-        text-decoration: none;
-        color: $doplnkova-barva;
+    &__autor {
+        &__odkaz {
+            font-style: italic;
+            text-decoration: none;
+            color: $doplnkova-barva;
+        }
+
+        &__jmeno {
+            font-style: italic;
+        }    
     }
 
     &__vedlejsi__plakat img {
