@@ -1,7 +1,10 @@
 .detail {
+    --bg-color: #eeeeee77;
+    --font: clamp(0.9rem, 5vw, 1rem);
     --gap-sm: 1rem;
     --gap-lg: 2.5rem;
-    --line-height-text: 1.4rem;
+    --min-height-dl: 1.25rem;
+    --line-height-text: 1.4rem; 
 }
 
 .detail {
@@ -18,14 +21,19 @@
 
         &__definice {
             font-weight: bold;
+            font-size: var(--font);
+            min-height: var(--min-height-dl);
         }
 
         &__data {
             margin: 0;
+            font-size: var(--font);
+            min-height: var(--min-height-dl);
         }
     }
     
     &__text {
+        font-size: var(--font);
         line-height: var(--line-height-text);
     }
 
@@ -40,6 +48,7 @@
     }
 
     &__vedlejsi__plakat img {
+        background-color: var(--bg-color);
         max-width: 100%;
         width: 100%;
         height: auto;

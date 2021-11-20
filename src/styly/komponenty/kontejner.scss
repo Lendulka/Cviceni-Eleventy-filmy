@@ -1,3 +1,7 @@
+.kontejner__paticka {
+    --min-height: 20rem;
+}
+
 .kontejner {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -34,14 +38,14 @@
 @media screen and (min-width: 530px) {
     .kontejner__paticka {
         position: relative;
-        min-height: 20rem;
+        min-height: var(--min-height);
     }
 }
 
 @media screen and (min-width: 800px) {
     .kontejner__paticka {
         position: relative;
-        min-height: 20rem;
+        min-height: var(--min-height);
     }
 }
 

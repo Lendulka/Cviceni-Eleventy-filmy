@@ -1,6 +1,6 @@
 .paticka {
     --bg-color: #EEEEEE;
-    --odkaz-color: #212F3D;
+    --color-odkaz: #212F3D;
     --gap: 1rem;
     --line-height: 1.5rem;
 }
@@ -25,7 +25,7 @@
     }
 
     &__odkaz {
-        color: var(--odkaz-color);
+        color: var(--color-odkaz);
         text-decoration: none;
 
         &:hover,
