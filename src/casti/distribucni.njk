@@ -1,0 +1,14 @@
+<dl class="detail__popis">
+    <dt class="detail__popis__definice">Rok:</dt>
+    <dd class="detail__popis__data">{{ film.rok }}</dd>
+  
+    <dt class="detail__popis__definice">Země:</dt>
+    <dd class="detail__popis__data">{{ film.zeme | join(', ') }}</dd>
+  
+    <dt class="detail__popis__definice">Žánr:</dt>
+    <dd class="detail__popis__data">{{ film.zanr | join(' / ') }}</dd>
+  
+    {% set filmDelka =  [film.delka, " ", "minut"] %}
+    <dt class="detail__popis__definice">Délka:</dt>
+    <dd class="detail__popis__data">{{ filmDelka | join }}</dd>
+</dl>

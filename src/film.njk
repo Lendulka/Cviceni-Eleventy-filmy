@@ -12,22 +12,8 @@ permalink: '/film/{{ film.nazev | slug }}/'
     <main class="detail__hlavni">
 
       <h2 class="nadpis nadpis--hlavni">{{ film.nazev }}</h2>
-  
-      <dl class="detail__popis">
-        <dt class="detail__popis__definice">Rok:</dt>
-        <dd class="detail__popis__data">{{ film.rok }}</dd>
-  
-        <dt class="detail__popis__definice">Země:</dt>
-        <dd class="detail__popis__data">{{ film.zeme | join(', ') }}</dd>
-  
-        <dt class="detail__popis__definice">Žánr:</dt>
-        <dd class="detail__popis__data">{{ film.zanr | join(' / ') }}</dd>
-  
-        {% set filmDelka =  [film.delka, " ", "minut"] %}
-        <dt class="detail__popis__definice">Délka:</dt>
-        <dd class="detail__popis__data">{{ filmDelka | join }}</dd>
-      </dl>
-  
+      {% include "distribucni.njk" %}
+      
       <h3 class="nadpis nadpis--vedlejsi">Obsah</h3>
       <details open>
         <summary></summary>
@@ -36,7 +22,7 @@ permalink: '/film/{{ film.nazev | slug }}/'
           {% if film.obsah.autor.odkaz %}
             (<a class="detail__autor__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.jmeno }}</a>)
           {% else %}
-          <span class="detail__autor__jmeno">({{film.obsah.autor.jmeno}})</span>
+            <span class="detail__autor__jmeno">({{film.obsah.autor.jmeno}})</span>
           {% endif %}
         </p>
       </details>
@@ -52,17 +38,7 @@ permalink: '/film/{{ film.nazev | slug }}/'
       <h3 class="nadpis nadpis--vedlejsi">Hodnocení</h3>
       <div class="hvezdy hvezdy--skore-{{ film.hodnoceni }}"></div>
   
-      {% set podobneFilmy = film.souvisejici %}
-      {% if podobneFilmy | length > 0 %}
-        <h3 class="nadpis nadpis--vedlejsi">Související filmy</h3>
-        <ul class="seznam">
-          {% for film in podobneFilmy %}
-          <li class="seznam__polozka">
-              <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
+      {% include "seznam-podobne.njk" %}
 
     </aside>
   </div>

@@ -1,0 +1,11 @@
+{% set podobneFilmy = film.souvisejici %}
+{% if podobneFilmy | length > 0 %}
+    <h3 class="nadpis nadpis--vedlejsi">Související filmy</h3>
+    <ul class="seznam">
+        {% for film in podobneFilmy %}
+        <li class="seznam__polozka">
+            <a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+{% endif %}

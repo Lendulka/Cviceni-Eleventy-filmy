@@ -1,15 +1,22 @@
 .paticka {
-    background-color: #EEEEEE;
+    --bg-color: #EEEEEE;
+    --odkaz-color: #212F3D;
+    --gap: 1rem;
+    --line-height: 1.5rem;
+}
+
+.paticka {
+    background-color: var(--bg-color);
     margin: auto;
    
     &__obsah {
         display: grid;
         grid-template-rows: repeat(2, auto);
-        gap: 1rem;
+        gap: var(--gap);
         max-width: $sirka-obsahu;
         margin: auto;
         padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
-        line-height: 1.5rem;
+        line-height: var(--line-height);
     }  
 
     &__sekce {
@@ -18,13 +25,13 @@
     }
 
     &__odkaz {
-        color: #212F3D;
+        color: var(--odkaz-color);
         text-decoration: none;
 
-            &:hover,
-            &:focus {
-                text-decoration: underline;
-            }
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -47,9 +54,9 @@
         left: 0;
         right: 0;
         position: absolute;
-    }
 
-    .paticka__obsah {
-        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-    } 
+        &__obsah {
+            grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        } 
+    }
 }

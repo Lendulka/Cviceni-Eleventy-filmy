@@ -1,12 +1,22 @@
+.seznam__polozka {
+    --font-sm: 1.1rem; 
+    --font-md: 1rem; 
+    --list-style-type: square;
+    --padding-top-sm: 0.3rem;
+    --padding-bottom-sm: 0.3rem;
+    --padding-top-md: 0.2rem;
+    --padding-bottom-md: 0.2rem;
+}
+
 .seznam {
     padding-left: 0.5rem;
     list-style-type: none;
 
     &__polozka {
         color: $doplnkova-barva;
-        font-size: 1.1rem;
-        padding-top: 0.3rem;
-        padding-bottom: 0.3rem;     
+        font-size: var(--font-sm);
+        padding-top: var(--padding-top-sm);
+        padding-bottom: var(--padding-bottom-sm);     
     }
 
     &__odkaz {
@@ -20,7 +30,7 @@
 
         &::before {
             content: ' '; 
-            list-style-type: square;
+            list-style-type: var(--list-style-type);
             background-color: $doplnkova-barva;
             width: 0.5rem;
             height: 0.5rem;
@@ -33,9 +43,9 @@
 
 @media screen and (min-width: 530px) {
     .seznam__polozka {
-        font-size: 1rem;
-        padding-top: 0.2rem;
-        padding-bottom: 0.2rem;
+        font-size: var(--font-md);
+        padding-top: var(--padding-top-md);
+        padding-bottom: var(--padding-bottom-md);
     }
 }
 

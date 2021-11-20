@@ -1,0 +1,5 @@
+<ul class="seznam">
+    {% for film in filmy %}
+    <li class="seznam__polozka"><a class="seznam__odkaz" href="/film/{{ film.nazev | slug }}/">{{ film.nazev }}</a></li>
+    {% endfor %}
+</ul>

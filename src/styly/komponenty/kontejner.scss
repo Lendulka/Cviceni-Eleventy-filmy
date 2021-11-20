@@ -1,13 +1,9 @@
-
 .kontejner {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 100%;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-
+    grid-template-areas: "header" "main" "footer";
+        
     &__hlavicka {
         grid-area: header;
     }
@@ -16,8 +12,18 @@
         grid-area: main;
         max-width: $sirka-obsahu;
         width: 100%;
-        margin: auto;
+        margin: 0 auto;
         padding: $mezera-od-okraju-vertikalni $mezera-od-okraju-horizontalni;
+
+        & a[href^="https"],
+        & a[href^="http"] {
+            font-style: italic;
+            color: $doplnkova-barva;
+
+            &:visited {
+                color: $hlavni-barva;
+            }
+        }
     }
 
     &__paticka {
@@ -28,14 +34,14 @@
 @media screen and (min-width: 530px) {
     .kontejner__paticka {
         position: relative;
-        min-height: 15rem;
+        min-height: 20rem;
     }
 }
 
 @media screen and (min-width: 800px) {
     .kontejner__paticka {
         position: relative;
-        min-height: 15rem;
+        min-height: 20rem;
     }
 }
 

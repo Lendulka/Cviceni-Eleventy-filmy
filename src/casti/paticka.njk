@@ -1,20 +1,19 @@
-
-    <div class="kontejner__paticka">
-        <footer class="paticka">
-            <div class="paticka__obsah">
-                <section class="paticka__sekce">
-                    <h4 class="nadpis nadpis--paticka">Podobné weby</h4>
-                    {% for podobnyWeb in podobneWeby %}
-                    <a class="paticka__odkaz" href="{{ podobnyWeb.url }}">{{ podobnyWeb.nazev }}</a>
-                    {% endfor %}
-                </section>
+<div class="kontejner__paticka">
+    <footer class="paticka">
+        <div class="paticka__obsah">
+            <section class="paticka__sekce">
+                <h4 class="nadpis nadpis--paticka">Podobné weby</h4>
+                {% for podobnyWeb in podobneWeby %}
+                <a class="paticka__odkaz" href="{{ podobnyWeb.url }}">{{ podobnyWeb.nazev }}</a>
+                {% endfor %}
+            </section>
                 
-                <section class="paticka__sekce">
-                    <h4 class="nadpis nadpis--paticka">Obecné</h4>
-                    <a class="paticka__odkaz" href="/puvod-dat/">Původ dat</a>
-                    <a class="paticka__odkaz" href="https://www.11ty.dev/">Eleventy dokumentace</a>
-                    <a class="paticka__odkaz" href="https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy">Zadání cvičení</a>
-                </section>
-            </div>
-        </footer>
-    </div>
+            <section class="paticka__sekce">
+                <h4 class="nadpis nadpis--paticka">Obecné</h4>
+                <a class="paticka__odkaz" href="/puvod-dat/">Původ dat</a>
+                <a class="paticka__odkaz" href="https://www.11ty.dev/">Eleventy dokumentace</a>
+                <a class="paticka__odkaz" href="https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy">Zadání cvičení</a>
+            </section>
+        </div>
+    </footer>
+</div>

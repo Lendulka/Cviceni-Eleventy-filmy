@@ -1,7 +1,13 @@
 .hlavicka {
-	background-color: #9c27b0;
-	color: #ffffff;
+	--min-height-sm: 4.5rem;
+	--min-height-md: 5rem;
+	--min-height-lg: 5.5rem;
+}
+
+.hlavicka {
+	background-color: $hlavni-barva;
 	display: flex;
+	min-height: var(--min-height-sm);
 
 	&__obsah {
 		padding: 1rem 1.5rem;
@@ -11,10 +17,19 @@
 	}
 
 	&__logo {
-		margin: 0;
-		padding: 0;
 		display: inline-flex;
 		margin: auto;
 	}
 }
 
+@media screen and (min-width: 530px) {
+	.hlavicka {
+		min-height: var(--min-height-md);
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.hlavicka {
+		min-height: var(--min-height-lg);
+	}
+}

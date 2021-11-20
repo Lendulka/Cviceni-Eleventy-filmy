@@ -1,8 +1,14 @@
 .detail {
+    --gap-sm: 1rem;
+    --gap-lg: 2.5rem;
+    --line-height-text: 1.4rem;
+}
+
+.detail {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: 100%;
-    gap: 1rem;
+    gap: var(--gap-sm);
 
     &__popis {
         display: grid;
@@ -20,14 +26,12 @@
     }
     
     &__text {
-        line-height: 1.4rem;
+        line-height: var(--line-height-text);
     }
 
     &__autor {
         &__odkaz {
-            font-style: italic;
             text-decoration: none;
-            color: $doplnkova-barva;
         }
 
         &__jmeno {
@@ -45,6 +49,6 @@
 @media screen and (min-width: 800px) {
     .detail {
         grid-template-columns: 1fr 15rem;
-        gap: 2.5rem;
+        gap: var(--gap-lg);
     }
 }
