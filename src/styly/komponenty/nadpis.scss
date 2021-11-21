@@ -1,17 +1,17 @@
 .nadpis {
     &--hlavni {
-        font-size: 1.6rem;
+        font-size: clamp(1.5rem, 6vw, 1.7rem);
         margin-top: 0;  
     }
 
     &--vedlejsi {
-        font-size: 1.3rem;
+        font-size: clamp(1.2rem, 4vw, 1.4rem);
         margin-top: 1.8rem;
         margin-bottom: 1.1rem;
     }
 
     &--paticka {
-        font-size: 1.1rem;
+        font-size: clamp(1rem, 3vw, 1.2rem);
         margin: 0 0 0.5rem;
     }
 }
