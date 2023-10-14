@@ -14,10 +14,11 @@ permalink: '/film/{{ film.nazev | slug }}/'
       <h2 class="nadpis nadpis--hlavni">{{ film.nazev }}</h2>
       {% include "distribucni.njk" %}
       
-      <h3 class="nadpis nadpis--vedlejsi">Obsah</h3>
       <details open>
-        <summary></summary>
-
+        <summary>
+          <h3 class="nadpis nadpis--vedlejsi">Obsah</h3>
+        </summary>
+       
         <p class="detail__text">{{ film.obsah.text }}
           {% if film.obsah.autor.odkaz %}
             (<a class="detail__autor__odkaz" href="{{ film.obsah.autor.odkaz }}">{{ film.obsah.autor.jmeno }}</a>)

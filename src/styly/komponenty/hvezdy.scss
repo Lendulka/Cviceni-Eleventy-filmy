@@ -1,8 +1,24 @@
-.hvezdy--skore-1 {--skore: 1;}
-.hvezdy--skore-2 {--skore: 2;}
-.hvezdy--skore-3 {--skore: 3;}
-.hvezdy--skore-4 {--skore: 4;}
-.hvezdy--skore-5 {--skore: 5;}
+.hvezdy {
+    &--skore-1 {
+        --skore: 1;
+    }
+
+    &--skore-2 {
+        --skore: 2;
+    }
+
+    &--skore-3 {
+        --skore: 3;
+    }
+
+    &--skore-4 {
+        --skore: 4;
+    }
+
+    &--skore-5 {
+        --skore: 5;
+    }
+}
 
 .hvezdy {
     display: flex;
@@ -14,7 +30,7 @@
         background-image: url('obrazky/hvezda-vyplnena.svg');
         background-size: contain;
         flex-grow: var(--skore);
-    } 
+    }
 
     &::after {
         content: " ";
@@ -23,8 +39,3 @@
         flex-grow: calc(5 - var(--skore));
     }
 }
-
-
-
-
-
